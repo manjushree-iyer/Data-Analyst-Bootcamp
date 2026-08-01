@@ -1,4 +1,4 @@
-## Interview Nuggets
+## Interview Questions
 
 Q. What does * mean in SQL?
 A. It selects all columns from a table.

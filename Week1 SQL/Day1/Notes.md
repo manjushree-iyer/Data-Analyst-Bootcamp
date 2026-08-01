@@ -49,13 +49,11 @@ SELECT * FROM employee_demographics;
 ### Display specific columns
 
 ```sql
-SELECT first_name
-FROM employee_demographics;
+SELECT first_name FROM employee_demographics;
 ```
 
 ```sql
-SELECT first_name, last_name, birth_date
-FROM employee_demographics;
+SELECT first_name, last_name, birth_date FROM employee_demographics;
 ```
 
 Selecting only the required columns makes queries faster.
@@ -71,15 +69,13 @@ A table can be referenced in two ways.
 ```sql
 USE parks_and_recreation;
 
-SELECT *
-FROM employee_demographics;
+SELECT * FROM employee_demographics;
 ```
 
 ### Method 2 (without using the database)
 
 ```sql
-SELECT *
-FROM parks_and_recreation.employee_demographics;
+SELECT * FROM parks_and_recreation.employee_demographics;
 ```
 
 Here,
@@ -142,8 +138,7 @@ Using parentheses improves readability and avoids mistakes.
 Returns only unique values by removing duplicates.
 
 ```sql
-SELECT DISTINCT first_name
-FROM employee_demographics;
+SELECT DISTINCT first_name FROM employee_demographics;
 ```
 
 Example:
