@@ -38,3 +38,22 @@ Types of SQL Commands:
 3. DML(Data Manipulation Language): insert, update, delete
 4. DCL(Data Control Language): grant and revoke
 5. TCL(Transaction Control Language): start, commit, rollback
+   
+Keys:
+
+1. Primary Key: Uniquely identifies each row
+2. Foreign Key: Refers to the Primary Key of another Table
+
+Constraints:
+1. NOT NULL: columns cannot have a null vakue
+2. UNIQUE: all values in the column are different
+3. PRIMARY KEY: makes a column unique and cannnot have duplicate values
+4. FOREIGN KEY: prevents actions that would destroy links between tables
+5. DEFAULT: sets the default value of that column
+6. CHECK: it can limit the values allowed in a column
+
+Operators:
+1. Arithmetic: +, -, *, /, %
+2. Comparison: =, !=, >, <, >=, <=
+3. Logical: AND, OR, NOT, IN, BEWEEN, ALL, LIKE, ANY
+4. Bitwise: BITWISE AND &, BITWISE OR |
