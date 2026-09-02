@@ -57,3 +57,29 @@ Operators:
 2. Comparison: =, !=, >, <, >=, <=
 3. Logical: AND, OR, NOT, IN, BEWEEN, ALL, LIKE, ANY
 4. Bitwise: BITWISE AND &, BITWISE OR |
+
+Aggregate Functions:
+1. COUNT(): counts the total number of records
+2. MAX(): finds the record with the maximum value
+3. MIN(): finds the record with the minimum value
+4. SUM(): finds the sum of the values in the column
+5. AVG(): finds the average of the values in the column
+
+GROUP BY Clause:
+Groups rows that have the same value into summary rows. It collects data from multiple records and groups the result by one or more column
+
+SELECT city, count(name) FROM student GROUP BY city;
+
+HAVING Clause:
+Applies condition to certain desired rows. Its generally used when we want to apply any condition after grouping.
+
+SELECT count(name), city FROM student GROUP BY city HAVING max(marks) > 90;
+
+GENERAL ORDER:
+
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
