@@ -36,7 +36,7 @@ SELECT grade, count(name) FROM student GROUP BY grade ORDER BY grade;
 ## Having Clause used for applying conditions to desired rows
 SELECT count(name), city FROM student GROUP BY city HAVING max(marks) > 90;
 
-## General Order
+## General Order of execution
 
 SELECT city FROM student WHERE grade = "C" GROUP BY city HAVING MAX(marks) >= 50 ORDER BY city DESC;
 
