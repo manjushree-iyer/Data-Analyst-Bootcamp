@@ -75,7 +75,7 @@ Applies condition to certain desired rows. Its generally used when we want to ap
 
 SELECT count(name), city FROM student GROUP BY city HAVING max(marks) > 90;
 
-GENERAL ORDER:
+GENERAL ORDER OF EXECUTION:
 
 SELECT
 FROM
